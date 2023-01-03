@@ -1,0 +1,314 @@
+*
+{
+  margin: 0;
+}
+
+
+
+.nav {
+    list-style-type: none;
+    margin: 100;
+    padding: 50;
+    overflow: hidden;
+    background-color: black;
+}
+.nav > ul >  li {
+    float: left;
+    font-size: 24px;
+    display: block;
+    padding: 9px;
+  }
+
+ .nav > ul > li > a{
+    color: aliceblue;
+  }
+.head-top{
+    height: 50px;
+    width: 1100px;
+    margin-left: 99px;
+    margin-right: 99px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.btn1{
+    background-color: #00a6ff;
+    height: 37px;
+    width: 80px;
+    color: white;
+    font-size: 17px;
+   margin-left: 650px;
+    border: none;
+    border-radius: 9px;
+    margin-top: 11px;
+    
+}
+
+/* buttun responsive */
+
+/* @media screen and (max-device-width:110px) {
+  .btn1 {
+    background-color: #00a6ff;
+    height: 37px;
+    width: 80px;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 9px;
+    margin-top: 11px;
+    margin-left: 55px
+  }
+
+} */
+
+
+.Courses{
+    font-size: 22px;   
+}
+
+/* backgrng img */
+
+.container1{
+    height: 660px;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-size: cover;
+    background-image: linear-gradient(0deg, rgb(0 0 0 / 50%), rgba(0, 0, 0, 0.8)), url(./assets/img/c1.jpg);
+}
+
+
+.text1{
+    text-align: center;
+    padding-top: 65px;
+    margin-top: 0%;
+    color: rgb(246, 239, 37);
+    margin: 0 auto;
+    /* max-width: 385px; */
+    line-height: 1.1;
+}
+.get-started {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 400px;
+    justify-content: center;
+
+}
+.text2 {
+    font-size: 26PX;
+  color: rgb(247, 247, 247);
+  font-weight: 200;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text2 > a > button{
+  font-weight: 100;
+  font-size: 15px;
+padding: 8px 8px 8px 8px;
+background-color: transparent;
+color: rgb(255, 255, 253);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text2 > a > button:hover{
+  background-color: rgb(103, 103, 102);
+}
+.text3 {
+  text-align: center;
+  padding-top: 65px;
+  margin-top: 0%;
+  color: rgb(255, 255, 253);
+  margin: 0 auto;
+  /* max-width: 385px; */
+  line-height: 1.1;
+  
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 50vw;
+    margin: auto;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 4px;
+  }
+  
+  button{
+    cursor: pointer;
+  }
+
+  .img1{
+    margin-right:  200px;
+    width: 300px;
+    height: 400px;
+
+
+  }
+  .img2{
+    margin-left: 700px;
+    width: 300px;
+    height: 400px;
+}
+.img3{
+    margin-right: 500px;
+    width: 300px;
+    height: 400px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  /* background-color: black; */
+}
+
+.flex-container > div {
+  
+  width: 56px;
+  margin: 20px;
+  text-align: right;
+  line-height: 75px;
+  font-size: 50px;
+}
+
+.info{
+background-color: aqua;
+text-align: center;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.maprouter{
+
+  margin-top: 18px;
+}
+
+.card-body > H2{
+  padding-top: 8PX;
+  text-align: center;
+font-size: 22PX;
+font-family: cursive;
+color: blue;
+}
+
+.sign-up-form{
+width: 300px;
+box-shadow: 0 0 3px 0 #00a6ff;
+background: #fff;
+padding: 20px;
+margin: 8% auto 0;
+text-align: center;
+
+}
+.sign-upfrom h1
+{
+color: #1c8adb;
+margin-bottom: 23px;
+}
+.input-box{
+border-radius: 20px;
+padding: 10px;
+margin: 10px 0;
+width: 100%;
+border: 1px solid #999;
+outline: none
+}
+.button{
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.signup-button{
+ background-color: #1c8adb;
+}
+
+.twitter-button{
+  background-color: #21afde;
+}
+a
+{
+text-decoration: none;
+}
+
+hr{
+  margin-top: 20px;
+  width: 80%;
+}
+.or{
+  background: #fff;
+  width: 30px;
+  margin: -19px auto 10px;
+}
+.sign-up-logo{
+  width: 70px;
+}
+/* .gallery>img:hover{
+width: 500px;
+height: 500px;
+} */
+
+.avatar {
+  vertical-align: middle;
+  width: 120px;
+  height: 130px;
+  border-radius: 500%;
+  margin-left: 500;
+}
+.color1 {
+ color: #fff;
+ text-align: center;
+ font-weight: 200;
+letter-spacing: 2px;
+line-height: 1.4;
+}
+
+.avatars > .row > .column >.avatar{
+  margin-left: 5em;
+}
+
+.avatars > .row > .column > h1{
+  color: antiquewhite;
+  margin-left: 2.2em;
+  padding-top: 5px;
+}
+.co1{
+  font-weight: 600;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+color: rgb(252, 248, 248);
+ /* letter-spacing: 2px; */
+ line-height: 1.1;
+}
+.col2{
+font-weight: 500;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  color: rgb(213, 215, 222);
+}
+.facebook{
+  text-align: center;
+  margin-left: 100px;
+}
+.instagram{
+margin-left: 100px;
+}
+.whatsapp{
+  margin-left: 100px;
+} 
+
+
+/* responsive media queriews */
+
